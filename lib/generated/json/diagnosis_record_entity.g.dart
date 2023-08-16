@@ -186,8 +186,7 @@ extension DiagnosisRecordMessageExtension on DiagnosisRecordMessage {
       ..to = to ?? this.to
       ..receipt = receipt ?? this.receipt
       ..unread = unread ?? this.unread
-      ..msgTime = msgTime ?? this.msgTime
-      .._content = _content ?? this._content;
+      ..msgTime = msgTime ?? this.msgTime;
   }
 }
 
